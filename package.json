@@ -1,7 +1,7 @@
 {
-  "name": "mrobb-builders",
+  "name": "big-gulp",
   "version": "0.0.1",
-  "description": "Gulp build tasks",
+  "description": "Gulp build task helpers etc",
   "main": "index.js",
   "author": "Matthew Robb",
   "scripts": {},
