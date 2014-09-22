@@ -1,7 +1,7 @@
 var path = require("path");
 var handlebars = require('handlebars');
 var gulp = require("gulp");
-var clean = require("gulp-clean");
+var clean = require("gulp-rimraf");
 var changed = require("gulp-changed");
 var gt = require("../");
 
