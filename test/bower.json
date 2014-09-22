@@ -1,0 +1,24 @@
+{
+  "name": "gulp-tasks-tests",
+  "version": "0.0.0",
+  "authors": [
+    "Matthew Robb <matthew@playfab.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "dist",
+    "build",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "regenerator": "~0.4.8",
+    "handlebars": "~1.3.0",
+    "velocity": "~0.11.7",
+    "jquery": "~2.1.1",
+    "backbone": "~1.1.2"
+  }
+}
