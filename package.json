@@ -1,5 +1,5 @@
 {
-  "name": "mrobb-gulp-tasks",
+  "name": "mrobb-builders",
   "version": "0.0.1",
   "description": "Gulp build tasks",
   "main": "index.js",
