@@ -2,9 +2,21 @@
   "name": "big-gulp",
   "version": "0.0.1",
   "description": "Gulp build task helpers etc",
+  "author": {
+    "name": "Matthew Robb",
+    "email": "matthewwrobb@gmail.com"
+  },
+  "homepage": "https://github.com/matthewrobb/big-gulp",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/matthewrobb/big-gulp/issues"
+  },
   "main": "index.js",
-  "author": "Matthew Robb",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewrobb/big-gulp.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "defs": "1.0.0",
     "es6-destructuring": "git://github.com/eventualbuddha/es6-destructuring#update-recast",
@@ -31,7 +43,8 @@
     "regenerator": "0.4.12",
     "through2": "0.4.1",
     "traceur": "0.0.61",
-    "traverse": "^0.6.6",
+    "traverse": "0.6.6",
     "esprima-fb": "5001.1.0-dev-harmony-fb"
   }
 }
+
