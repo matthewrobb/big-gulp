@@ -1,6 +1,6 @@
 {
   "name": "big-gulp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gulp build task helpers etc",
   "author": {
     "name": "Matthew Robb",
@@ -19,11 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "defs": "1.0.0",
-    "es6-destructuring": "git://github.com/eventualbuddha/es6-destructuring#update-recast",
     "es6-module-transpiler": "0.6.2",
     "es6-module-transpiler-resolver-factory": "git://github.com/matthewrobb/es6-module-transpiler-resolver-factory",
     "es6-module-transpiler-system-formatter": "0.1.1",
-    "esnext": "0.9.0",
+    "esnext": "^0.10.0",
     "esprima-fb": "5001.1.0-dev-harmony-fb",
     "forever-monitor": "1.2.3",
     "glob": "4.0.4",
@@ -42,6 +41,7 @@
     "mkdirp": "0.5.0",
     "recast": "0.6.6",
     "regenerator": "0.4.12",
+    "streamqueue": "^0.1.1",
     "through2": "0.4.1",
     "traceur": "0.0.61",
     "traverse": "0.6.6"
