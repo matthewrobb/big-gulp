@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "file": "arrow-functions.js",
+    "sources": [
+        "arrow-functions.js"
+    ],
+    "names": [],
+    "mappings": ";;;;;;YAAA,CAAC,CAAC,EAAE,EAAE,aAAO;;YAEb,CAAC;;;YAGD,CAAC,CAAC,EAAE,EAAE,EAAE;gBACJ,CAAC;2BAAO,CAAC,CAAC,CAAC;;YACf,CAAC;;;YAGD;uBAAK,CAAC,CAAC,CAAC;cAAC;;;YAGT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;gBACjB,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE;2BAAO,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;4BAAC;;gBAExC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;oBACrB,CAAC,CAAC,CAAC,CAAC,CAAC;gBACT,CAAC;YACL;;;YAGA,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;uBAAM,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;wBAAC,CAAC",
+    "sourcesContent": [
+        "var x = ()=> {\n\n};\n\n// test as property value\nvar y = {\n    z: ()=> null\n};\n\n// test as expression\n(()=>null) \n\n// test with a `this` binding\nfunction SomeClass() {\n    var foo = ()=> this instanceof SomeClass;\n\n    this.bar = function(baz) {\n        foo();\n    };\n}\n\n// test as call argument\n(new SomeClass()).bar(()=> this instanceof SomeClass);\n"
+    ],
+    "sourceRoot": "/source/"
+}

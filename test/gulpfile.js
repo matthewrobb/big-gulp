@@ -93,8 +93,7 @@ gulp.task("dev", [ "watch", "start" ]);
 gulp.task("app", [ "app:transpile", "app:static" ]);
 
 gulp.task("app:transpile", [ "app:templates", "app:less", "app:scripts" ], gt.wrap("app/transpile", {
-    cwd: temp_path + "/public/app",
-    dest: temp_path + "/public/app"
+    src: temp_path + "/public/app"
 }));
 
 gulp.task("app:scripts", gt.wrap("app/scripts", {

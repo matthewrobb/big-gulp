@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "file": "test.js",
+    "sources": [
+        "test.js"
+    ],
+    "names": [],
+    "mappings": ";;;;;;;;;;;;YAEO,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,wBAAE,CAAC,CAAC,CAAC,CAAC,EAAC;;gBAMhB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;;yBAAN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IACM;6CADZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,aACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,YACC;gBACX;;gBAHE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;gBAAN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;yCAAN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;2BAAN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;;2CAAN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;2CAAN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;uBAAN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;cAAU,CAAC,CAAC,CAAC,CAAC,CAAC;;;YAO3B,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE;;oBAAe,CAAC,CAAC,CAAC,EAAE;;;oBAAf,CAAC,CAAC,KAAK;;0BAAW;;;;qBAItB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;oBAAE,8CAAE",
+    "sourcesContent": [
+        "\n// modules via es6-module-compiler\nexport var str = \"str\";\n\n// arrow functions (via es6-arrow-function)\nimport \"./arrow-functions\";\n\n// classes (via es6-class)\nclass Monster extends Object {\n    constructor() {\n        super();\n    }\n}\n\n// computed property keys (via es6-computed-property-keys)\nvar obj = { [str] : 1, ing: 2 };\n\n\n// default params (via es6-default-params)\nfunction def_params(a=1) {\n\n}\n\n// destructuring (via es6-destructuring)\n\n// generators (via regenerator)\n\n// iterators + for-of (via regenerator)\n\n// object literal concise definitions (via es6-object-concise)\n\n// object literal shorthand (via es6-object-short)\n\n// rest params (via es6-rest-params)\n\n// spread (via es6-spread)\n\n// template strings (via es6-templates)\n\n\n\n"
+    ],
+    "sourceRoot": "/source/"
+}

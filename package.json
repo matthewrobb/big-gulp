@@ -1,6 +1,6 @@
 {
   "name": "big-gulp",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Gulp build task helpers etc",
   "author": {
     "name": "Matthew Robb",
@@ -18,40 +18,29 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.3.2",
-    "defs": "1.0.0",
     "es6-module-transpiler": "0.6.2",
     "es6-module-transpiler-resolver-factory": "git://github.com/matthewrobb/es6-module-transpiler-resolver-factory",
     "es6-module-transpiler-system-formatter": "0.1.1",
-    "esnext": "^0.10.0",
-    "esprima-fb": "5001.1.0-dev-harmony-fb",
+    "esnext": "^0.11.0",
     "forever-monitor": "1.2.3",
     "glob": "4.0.4",
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "0.0.8",
     "gulp-changed": "^0.3.0",
     "gulp-filter": "^1.0.2",
-    "gulp-flatten": "0.0.2",
     "gulp-less": "^1.3.1",
-    "gulp-rename": "1.2.0",
     "gulp-rimraf": "^0.1.0",
     "gulp-sourcemaps": "1.1.0",
     "gulp-util": "^3.0.1",
     "less": "1.7.3",
     "minimatch": "0.2.14",
     "mkdirp": "0.5.0",
-    "recast": "0.6.6",
-    "regenerator": "0.4.12",
-    "streamqueue": "^0.1.1",
+    "recast": "^0.7.2",
+    "regenerator": "^0.6.5",
     "through2": "0.4.1",
-    "traceur": "0.0.61",
-    "traverse": "0.6.6"
+    "traceur": "0.0.61"
   },
   "readme": "big-gulp\n========\n\nGulp build task helpers etc\n",
   "readmeFilename": "README.md",
-  "gitHead": "81e96b6347783ae6b01286e9b409e636b7e95b5f",
-  "_id": "big-gulp@0.0.3",
-  "scripts": {},
-  "_shasum": "b48d77b5cc5a50a5e3ef6ad5bc2d927d0e1c8908",
-  "_from": "big-gulp@"
+  "scripts": {}
 }
