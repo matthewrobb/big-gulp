@@ -6,7 +6,6 @@ System.register("test", ["./arrow-functions"], function(__es6_export__) {
 
         "execute": function() {
             "use strict";
-            var $__Object$defineProperties = Object.defineProperties;
             var $__Object$defineProperty = Object.defineProperty;
             var $__Object$create = Object.create;
             var $__Object$getPrototypeOf = Object.getPrototypeOf;
@@ -26,8 +25,6 @@ System.register("test", ["./arrow-functions"], function(__es6_export__) {
                     value: Monster
                 });
 
-                $__Object$defineProperties(Monster.prototype, {});
-                $__Object$defineProperties(Monster, {});
                 return Monster;
             }(Object);
 
