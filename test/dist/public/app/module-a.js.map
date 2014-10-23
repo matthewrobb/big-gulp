@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "file": "module-a.js",
+    "sources": [
+        "module-a.js"
+    ],
+    "names": [],
+    "mappings": ";;;;;;;gCACe,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;;MAE1B;;MAEO,CAAC,CAAC,EAAE,EAAE,sBAAE,CAAC,EAAC",
+    "sourcesContent": [
+        "// Export function as default\nexport default function() {\n\n}\n\nexport var x = 99;\n"
+    ],
+    "sourceRoot": "/source/"
+}

@@ -25,7 +25,6 @@ function config(options) {
 traceur.require.makeDefault(function(filename) {
     if(cwd.test(filename)) {
         return task_patterns.some(function(glob) {
-            console.log(filename.replace(cwd, ""));
             return minimatch(filename.replace(cwd, ""), glob);
         });
     }

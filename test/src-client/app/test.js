@@ -5,6 +5,8 @@ export var str = "str";
 // arrow functions (via es6-arrow-function)
 import "./arrow-functions";
 
+import * as mod from "./module-a";
+
 // classes (via es6-class)
 class Monster extends Object {
     constructor() {

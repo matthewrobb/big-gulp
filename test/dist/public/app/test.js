@@ -1,8 +1,13 @@
-System.register("test", ["./arrow-functions"], function(__es6_export__) {
+System.register("test", ["./arrow-functions", "./module-a"], function(__es6_export__) {
+    var mod;
     function arrow$functions$$(m) {}
 
+    function module$a$$(m) {
+        mod = m;
+    }
+
     return {
-        "setters": [arrow$functions$$],
+        "setters": [arrow$functions$$, module$a$$],
 
         "execute": function() {
             "use strict";
